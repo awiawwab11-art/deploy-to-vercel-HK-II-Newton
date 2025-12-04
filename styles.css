@@ -1,0 +1,22 @@
+/* styles.css */
+body { font-family: Inter, Arial, sans-serif; margin: 16px; background:#f4f6f8; color:#111; }
+h1 { font-size:20px; margin:0 0 8px 0; }
+.panel { background:#fff; padding:12px; border-radius:10px; box-shadow:0 6px 18px rgba(16,24,40,0.06); }
+#controls { display:flex; gap:12px; align-items:center; margin-bottom:12px; flex-wrap:wrap; }
+label { font-size:13px; color:#333; display:block; margin-bottom:6px; }
+input[type="range"] { width:180px; }
+input[type="number"] { width:86px; padding:6px; border-radius:6px; border:1px solid #ccc; }
+button { padding:8px 12px; border-radius:8px; border:1px solid #ccc; background:#fff; cursor:pointer; }
+button.primary { background:#0b76d1; color:#fff; border-color:#0b76d1; }
+.stat { font-family:monospace; font-size:14px; margin-right:8px; }
+#simCanvas { display:block; background: linear-gradient(#cfefff, #eaf7ff); border-radius:8px; }
+.small { font-size:13px; color:#555; }
+.control-col { display:flex; flex-direction:column; gap:6px; }
+.row { display:flex; gap:10px; align-items:center; }
+.plots { display:flex; gap:12px; margin-top:12px; flex-wrap:wrap; }
+.plotPanel { background:#fff; padding:8px; border-radius:8px; box-shadow:0 6px 16px rgba(16,24,40,0.04); }
+canvas.plot { background: linear-gradient(#fbfdff,#f7fbff); border-radius:6px; }
+.plot-title { font-weight:600; font-size:13px; margin-bottom:6px; }
+.controls-row { display:flex; gap:8px; align-items:center; flex-wrap:wrap; margin-top:8px; }
+.small-muted { font-size:12px; color:#666; }
+select { padding:6px; border-radius:6px; border:1px solid #ccc; background:#fff; }
